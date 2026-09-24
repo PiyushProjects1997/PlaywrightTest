@@ -1,0 +1,2 @@
+Status: 200
+Body: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OTM5OTdlNTMyZWQ4NjU4NzEyYWRmNjQiLCJ1c2VyRW1haWwiOiJwaXl1c2hnb2x1OTE5OUBnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo5ODc2NTQzMjEwLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzkwMjcxOTU1LCJleHAiOjE4MjE4Mjk1NTV9.U4BycYkcd3owI3o_iBjmIlYbiWmqGQh2QoPoFxaQp3k","userId":"693997e532ed8658712adf64","message":"Login Successfully"}
