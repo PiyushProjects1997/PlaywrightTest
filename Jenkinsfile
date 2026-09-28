@@ -27,8 +27,8 @@ pipeline {
         stage('Generate Allure Report') {
             steps {
                 // Allure results generate karega
-                // bat 'npx allure generate ./allure-results --clean -o ./allure-report'
-                bat 'npx allure generate --single-file ./allure-results --clean -o ./allure-report'
+                bat 'npx allure generate ./allure-results --clean -o ./allure-report'
+               // bat 'npx allure generate --single-file ./allure-results --clean -o ./allure-report'
             }
         }
     }
