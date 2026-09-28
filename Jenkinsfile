@@ -33,13 +33,10 @@ pipeline {
     }
 post {
     always {
-        publishHTML(target: [
-            reportDir: 'allure-report',
-            reportFiles: 'index.html',
-            reportName: 'Allure Report',
-            keepAll: true,
-            alwaysLinkToLastBuild: true,
-            allowMissing: false
+        allure([
+            includeProperties: false,
+            jdk: '',
+            results: [[path: 'allure-results']]
         ])
     }
 }
